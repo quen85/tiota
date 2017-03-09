@@ -1,0 +1,259 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  margin: 0;
+}
+
+h1, h2, h3{
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 28px;
+}
+
+h3{
+  font-size: 14px;
+  color: #9C9CA3;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+p{
+  font-size: 15px;
+}
+
+/*HEADER*/
+header{
+  position: fixed;
+  width: 100%;
+}
+
+header .menu-mobile{
+  display: none;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+header nav ul li{
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header nav ul li:last-child{
+  margin-right: 0px;
+}
+
+header nav a{
+  color: #000;
+  text-transform: uppercase;
+}
+
+/*MAIN*/
+.container{
+  font-size: 0;
+}
+
+.content{
+  max-width: 1024px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+section{
+  text-align: center;
+  width: 100%;
+}
+
+section p{
+  color: #9C9CA3;
+}
+
+.section-header p{
+  margin-bottom: 70px;
+}
+
+/*COVER*/
+.cover{
+  min-height: 650px;
+  background: url(images/startrek.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/*ABOUT*/
+.block{
+  clear: both;
+  display: flex;
+}
+
+.block img{
+  float: left;
+  width: 70%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.block-text{
+  float: left;
+  font-size: 16px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.about .section-header{
+  background-color: #F6F6FE;
+  padding-bottom: 20px;
+  width: 100%;
+  display: inline-block;
+}
+
+.about .section-header h2{
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.about .section-header p{
+  font-size: 16px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/*TEAM*/
+.team-list li{
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.team-list li img{
+  width: 115px;
+}
+
+.team-list li p{
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.team-list li span{
+  color: #9C9CA3;
+  font-size: 12px;
+}
+
+/*CONTACT*/
+.map img{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.social{
+  margin-bottom: 70px;
+}
+
+.social li{
+  margin-right: 10px;
+}
+
+.social li:last-child{
+  margin-right: 0px;
+}
+
+.social img{
+  width: 40px;
+}
+
+@media all and (max-width: 1023px){
+  .block img{
+    width: 50%;
+  }
+
+  .block-text{
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 767px){
+  header nav ul{
+    flex-direction: column;
+    margin-top: 30px;
+    display: none;
+  }
+
+  header nav ul li{
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  header .menu-mobile{
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .block{
+    clear: both;
+    display: inline-block;
+  }
+
+  .block img, .block-text{
+    width: 100%;
+    float: none;
+  }
+
+  .block-even{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block-even .block-text{
+    order: 1;
+  }
+
+  /*TEAM*/
+  .team-list li{
+    width: 33%;
+  }
+
+  .map img{
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+@media all and (max-width: 489px){
+  /*TEAM*/
+  .team-list li{
+    width: 50%;
+  }
+}
