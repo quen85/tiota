@@ -1,0 +1,97 @@
+.container{
+  background: #D0D0D0;
+  /* photo-1414496213569-23220f1033cd: */
+  background-image: linear-gradient(-180deg, #C6C6C6 0%, rgba(198,198,198,0.00) 36%);
+  /* Background: */
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 50%, #000000 100%);
+  background: rgba(52,52,60,0.20);
+}
+
+
+.cover li a{
+  font-family: .SFNSDisplay;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+
+.cover li a:hover{
+  opacity: 0.4;
+  font-family: .SFNSDisplay;
+  font-size: 26px;
+  color: #070707;
+}
+ul{
+  border: #373737;
+}
+
+
+/* Rectangle: */
+background: #FFFFFF;
+
+
+/* Rectangle 96: */
+background: #EF425F;
+border-radius: 60px;
+
+
+/* Tiota: */
+font-family: .SFNSDisplay;
+font-size: 170px;
+color: #FFFFFF;
+letter-spacing: 0px;
+
+
+/* ******: */
+font-family: .SFNSDisplay;
+font-size: 26px;
+color: #595968;
+letter-spacing: 0px;
+line-height: 40px;
+/* line: */
+background: #E2E2E2;
+/* mail@monmail.com: */
+font-family: .SFNSDisplay;
+font-size: 26px;
+color: #595968;
+letter-spacing: 0px;
+line-height: 40px;
+/* line: */
+background: #E2E2E2;
+
+
+/* Shape: */
+background: #FFFFFF;
+/* Shape: */
+background: #FFFFFF;
+/* Shape: */
+background: #FFFFFF;
+/* Shape: */
+background: #FFFFFF;
+/* Shape: */
+border: 1px solid #FFFFFF;
+/* Wifi: */
+background: #FFFFFF;
+/* Blutooth: */
+background: #FFFFFF;
+/* Shape: */
+background: #FFFFFF;
+/* Shape: */
+background: #FFFFFF;
+/* Shape: */
+border: 1px solid #FFFFFF;
+/* 22%: */
+font-family: HelveticaNeue-Light;
+font-size: 22.97px;
+color: #FFFFFF;
+letter-spacing: 1px;
+/* 4 21 PM: */
+font-family: HelveticaNeue;
+font-size: 23.97px;
+color: #FFFFFF;
+letter-spacing: 1px;
+/* :: */
+font-family: AvenirNext-Regular;
+font-size: 23.97px;
+color: #FFFFFF;
+letter-spacing: 1px;
