@@ -1,17 +1,17 @@
 /*COVER*/
-.cover{
+.home .cover{
   min-height: 360px;
   background: #D0D0D0;
   color: white;
   position: relative;
 }
 
-.cover h1{
+.home .cover h1{
   font-size: 72px;
   line-height: 360px;
 }
 
-.cover ul{
+.home .cover ul{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -21,36 +21,28 @@
   border-top: 1px solid #c2c2c2;
 }
 
-.cover li{
+.home .cover li{
   width: 50%;
   float: left;
   min-height: 50px;
   line-height: 50px;
 }
 
-.cover li a{
+.home .cover li a{
   color: white;
   font-size: 14px;
 }
 
-.cover li.active a{
+.home .cover li.active a{
   color: #868686;
 }
 
-form{
+.home form{
   text-align: center;
   padding-top: 40px;
 }
 
-form input{
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  border: none;
-  text-align: center;
-}
-
-form input[type="text"], form input[type="password"]{
+.home form input[type="text"], form input[type="password"]{
   height: 50px;
   line-height: 50px;
   width: 220px;
@@ -60,11 +52,11 @@ form input[type="text"], form input[type="password"]{
   margin-bottom: 20px;
 }
 
-form input[type="password"]{
+.home form input[type="password"]{
   width: 145px;
 }
 
-form input[type="submit"]{
+.home form input[type="submit"]{
   width: 140px;
   border-radius: 50px;
   background-color: #ef425f;
